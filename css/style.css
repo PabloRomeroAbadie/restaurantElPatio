@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+}
+
+nav {
+  background-color: rgba(21, 21, 21, 0.8);
+  padding: 35px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+nav {
+  display: block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+#logo img {
+    position: absolute;
+    left: 60px;
+    top: -35px;
+    width: 150px;
+}
+
+#logo {
+    position: relative;
+}
+
+#titulo {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+#titulo div {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 40%;
+  text-align: center;
+  width: 93%;
+  padding: 0px 50px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 30px;
+}
+
+.informacion p {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.menu {
+    background: rgba(88, 87, 87, 0.15);
+    padding: 40px 0px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+td, th {
+    padding: 15px;
+}
+
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tbody>tr:nth-child(odd) {
+    background: rgb(29, 27, 27);
+    color: white;
+}
+
+td:nth-child(3) {
+    color: rgb(60, 172, 60);
+    font-weight: 600;
+}
+
+.caja {
+    width: 70px;
+    height: 70px;
+}
+.chat {
+    background: rgb(10, 181, 187);
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    padding: 13px;
+    color: white;
+}
+
+footer {
+    background: rgba(21, 21, 21, 0.8);
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer img{
+    width: 150px;
+}
+
+footer p {
+    margin-top: 15px;
+    color: rgb(182, 182, 182);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
